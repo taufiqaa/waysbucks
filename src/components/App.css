@@ -11,6 +11,7 @@ nav img {
     background-image: url(../assets/background.svg);
 }
 
+
 .form-btn-space {
     margin-top: 20px ;
 }
@@ -59,36 +60,73 @@ nav img {
     border-radius: 5px;
 }
 
-/* Content.jsx*/
-/* Kotak Pembungkus Box Orderan*/
-.order-container{
-    border-radius: 1px solid black;
+/* Order-menu.jsx*/
+.menu-container{
+    margin-top: 125px;
+    border: 1px solid black;
     height: 400px;
     width: 1069px;
     flex-wrap: wrap;
     display: flex;
+    margin: auto;
+    justify-content: space-around;
 } 
 
-/*Box Orderan*/
-.item-box{
-    border-radius: 1px solid red;
+/*Order Box*/
+.menu-box{
+    /* border: 1px solid red; */
     height: 392px;
     width:  241px;
     border-radius: 10px;
+    background-color: #F7DADA;
 } 
 
- /*SubPicture Box Orderan*/
-.item-picture{
-    border-radius: 1px solid navy;
+ /*Picture's Order Box*/
+.menu-picture{
+    /* border: 1px solid navy; */
     height: 312px;
     width:  241px;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
-.item-information{
-    border-radius: 1px solid green;
+.pic_size{
+    height: 312px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.menu-information{
+    /* border: 1px solid green; */
     height: 80px;
     width:  241px;
-    border-radius: 10px;
+    border-radius: 0px 0px 12px 12px;
 }
 
+.menu-title{
+    /* border : 1px solid black; */
+    margin-left: 16px;
+    margin-bottom: 6px;
+    margin-top: 14px;
+}
+
+.menu-title h6{
+    font-weight: 900;
+    font-size: 18px;
+    color: #BD0707;
+}
+
+.menu-price{
+    /* border: 1px solid yellow; */
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+.menu-price h6{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color:  #974A4A;
+}
