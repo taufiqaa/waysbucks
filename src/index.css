@@ -6,6 +6,7 @@
 
 button, label {cursor: pointer;}
 textarea {resize: vertical;}
+p {margin-bottom: 0;}
 
 .vw100 {width: 100vw;} .vh100 {height: 100vh;}
 .w100 {width: 100%;} .h100 {height: 100%;}
@@ -55,16 +56,13 @@ textarea {resize: vertical;}
 
 .font-times {font-family: 'Times New Roman', Times, serif;}
 
-.fs1 {font-size: 1rem;}
-.fs1-25 {font-size: 1.25rem;}
-.fs1-5 {font-size: 1.5rem;}
-.fs1-75 {font-size: 1.75rem;}
-.fs2 {font-size: 2rem;}
-.fs2-25 {font-size: 2.25rem;}
-.fs2-5 {font-size: 2.5rem;}
-.fs2-75 {font-size: 2.75rem;}
-.fs3 {font-size: 3rem;}
+.fs1 {font-size: 1rem;} .fs1-25 {font-size: 1.25rem;} .fs1-5 {font-size: 1.5rem;} .fs1-75 {font-size: 1.75rem;}
+.fs2 {font-size: 2rem;} .fs2-25 {font-size: 2.25rem;} .fs2-5 {font-size: 2.5rem;} .fs2-75 {font-size: 2.75rem;}
+.fs3 {font-size: 3rem;} .fs3-25 {font-size: 3.25rem;} .fs3-5 {font-size: 3.5rem;} .fs3-75 {font-size: 3.75rem;}
+.fs4 {font-size: 4rem;} .fs4-25 {font-size: 4.25rem;} .fs4-5 {font-size: 4.5rem;} .fs4-75 {font-size: 4.75rem;}
+.fs5 {font-size: 5rem;} .fs5-25 {font-size: 5.25rem;} .fs5-5 {font-size: 5.5rem;} .fs5-75 {font-size: 5.75rem;}
 
+.fw300 {font-weight: 300;}
 .fw500 {font-weight: 500;}
 .fw700 {font-weight: 700;}
 .bold {font-weight: bold;}

@@ -1,16 +1,24 @@
 nav img {
-    width: 5rem;
+    width: 4rem;
     height: auto;
 }
-
 .after-nav {
-    padding-top: 9rem;
+    padding-bottom: 6.5rem;
 }
 
-.waysbucks-heading {
+.heading div {
+    width: 86%;
+    aspect-ratio: 958 / 400;
     background-image: url(../assets/background.svg);
+    background-repeat: no-repeat;
 }
-
+.heading img {
+    position: absolute;
+    width: 31.32%;
+    aspect-ratio: 451 / 324;
+    right: 10rem;
+    z-index: 1;
+}
 
 .form-btn-space {
     margin-top: 20px ;
