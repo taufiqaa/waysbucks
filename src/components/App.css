@@ -1,23 +1,82 @@
+/* nav {
+    box-shadow: 0 5px 10px 5px #0000001a;
+} */
 nav img {
     width: 4rem;
     height: auto;
 }
 .after-nav {
-    padding-bottom: 6.5rem;
+    padding-top: 8rem;
 }
 
-.heading div {
+.modal {background: #000000e1;}
+.modal form {width: 22rem;}
+.modal-input {
+    padding: 0.5rem 0.35rem;
+    background: #f7f1f1;
+}
+
+.heading {
     width: 86%;
     aspect-ratio: 958 / 400;
     background-image: url(../assets/background.svg);
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
 }
 .heading img {
     position: absolute;
-    width: 31.32%;
-    aspect-ratio: 451 / 324;
     right: 10rem;
-    z-index: 1;
+    height: 19rem;
+    aspect-ratio: 451 / 324;
+}
+
+.drink-list {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(10rem, 1fr));
+    column-gap: 2rem;
+    row-gap: 3rem;
+    list-style: none;
+    padding-left: 0;
+}
+.drink-list img {
+    width: 100%;
+    aspect-ratio: 241 / 312;
+    object-fit: cover;
+}
+.drink-list p {
+    color: #974A4A;
+}
+
+.input {
+    padding: 0.5rem 0.35rem;
+    color: #757575;
+    background: #F7f1f1;
+    border: 2px solid #BD0707;
+    border-radius: 5px;
+}
+.input img {
+    height: 1.5rem;
+    margin-right: 0.75rem;
+}
+.input-product {
+    aspect-ratio: 241 / 312;
+    object-fit: cover;
+    height: 25rem;
+    margin-right: 7.5rem;
+    border-radius: 10px;
+}
+.input-toping {
+    aspect-ratio: 1;
+    object-fit: cover;
+    height: 25rem;
+    margin-right: 7.5rem;
+    border-radius: 50%;
+}
+.input-button {
+    width: 87.5%;
+    padding: 0.5rem 0;
 }
 
 .form-btn-space {
@@ -71,7 +130,6 @@ nav img {
 /* Order-menu.jsx*/
 .menu-container{
     margin-top: 125px;
-    border: 1px solid black;
     height: 400px;
     width: 1069px;
     flex-wrap: wrap;

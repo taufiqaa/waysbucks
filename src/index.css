@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
 button, label {cursor: pointer;}
 textarea {resize: vertical;}
 p {margin-bottom: 0;}
@@ -15,6 +20,7 @@ p {margin-bottom: 0;}
 .w15rem {width: 15rem;}
 
 .py0-1 {padding-top: 0.1rem; padding-bottom: 0.1rem;}
+.pt0-3 {padding-top: 0.3rem;}
 
 .flex {display: flex;}
 .flex-col {
@@ -46,6 +52,7 @@ p {margin-bottom: 0;}
 .bg-none {background: none;}
 .bg-white {background: white;}
 .bg-red {background: #BD0707;}
+.bg-pink {background: #F6DADA;}
 
 .br-none {border: none;}
 .br-red {border: 2px solid #BD0707;}
@@ -56,6 +63,9 @@ p {margin-bottom: 0;}
 
 .font-times {font-family: 'Times New Roman', Times, serif;}
 
+.fs0-1 {font-size: 0.1rem;} .fs0-2 {font-size: 0.2rem;} .fs0-3 {font-size: 0.3rem;} .fs0-4 {font-size: 0.4rem;} .fs0-5 {font-size: 0.5rem;} .fs0-6 {font-size: 0.6rem;} .fs0-7 {font-size: 0.7rem;} .fs0-8 {font-size: 0.8rem;} .fs0-9 {font-size: 0.9rem;}
+
+.fs0-25 {font-size: 0.25rem;} .fs0-5 {font-size: 0.5rem;} .fs0-75 {font-size: 0.75rem;}
 .fs1 {font-size: 1rem;} .fs1-25 {font-size: 1.25rem;} .fs1-5 {font-size: 1.5rem;} .fs1-75 {font-size: 1.75rem;}
 .fs2 {font-size: 2rem;} .fs2-25 {font-size: 2.25rem;} .fs2-5 {font-size: 2.5rem;} .fs2-75 {font-size: 2.75rem;}
 .fs3 {font-size: 3rem;} .fs3-25 {font-size: 3.25rem;} .fs3-5 {font-size: 3.5rem;} .fs3-75 {font-size: 3.75rem;}
@@ -94,8 +104,3 @@ p {margin-bottom: 0;}
 .cursor-pointer {cursor: pointer;}
 .pointer-events-none {pointer-events: none;}
 .overflow-hidden {overflow: hidden;}
-
-.max-1440p {
-  max-width: 1440px;
-  margin: auto;
-}
