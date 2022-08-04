@@ -5,6 +5,7 @@ import App from './components/App'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './components/styles/marginpadding.css';
 import './components/App-1.css'
+import './components/App-2.css'
 import './index.css'
 
 const root = ReactDOM.createRoot(document.body)
