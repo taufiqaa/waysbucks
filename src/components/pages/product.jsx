@@ -1,7 +1,7 @@
 import Header from "../molecules/header";
 import clip from "../../assets/clip.svg"
 
-export default function AddProduct() {
+export function AddProduct() {
   return (
     <>
     <Header />

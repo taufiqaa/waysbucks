@@ -1,7 +1,7 @@
 import Header from "../molecules/header";
 import clip from "../../assets/clip.svg"
 
-export default function AddToping() {
+export function AddToping() {
   return (
     <>
     <Header />

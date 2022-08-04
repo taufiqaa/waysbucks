@@ -1,10 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import Home from './pages/home';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles/marginpadding.css';
-import './App.css';
-import AddProduct from "./pages/product";
-import AddToping from "./pages/toping";
+import { AddProduct } from "./pages/product";
+import { AddToping } from "./pages/toping";
+import { Income } from "./pages/transaction";
 
 export default function App() {
   return (
@@ -12,6 +10,7 @@ export default function App() {
       <Route path='/' element={<Home />} />
       <Route path='/add-product' element={<AddProduct />} />
       <Route path='/add-toping' element={<AddToping />} />
+      <Route path='/income' element={<Income />} />
     </Routes>
   )
 }
